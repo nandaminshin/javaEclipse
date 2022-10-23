@@ -255,9 +255,11 @@ public class Assignment2 {
 				System.out.println( "Your total sleep time is " + totalSleep + " hours.You are very hardworking!");
 			}
 			
-			System.out.println("Press 'exit' to exit the program :");
+			System.out.println("Press 'stop' to exit the program :");
 			k = sc.nextLine();
+			
+			c1 =-1;c2=-1;c3=-1;c4=-1;
 		}
-		while(!k.equals("exit"));
+		while(!k.equals("stop"));
 	}
 }
