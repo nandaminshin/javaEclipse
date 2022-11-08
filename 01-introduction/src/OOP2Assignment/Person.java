@@ -355,7 +355,8 @@ public class Person {
         }
         
         System.out.println("This person's native is " + detailNrcDiv + ", " + dteailNrcCity);
-        System.out.println("This person  in currently live in " + this.address + "\n");
+        System.out.println("This person  in currently live in " + this.address);
+        System.out.println("Nrc Number is " + this.dteailNrcNum  + "\n");
 
     }
 
